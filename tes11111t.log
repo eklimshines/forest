@@ -1,0 +1,71 @@
+Server listening on port 8080
+
+_____
+function locals(obj){
+    for (var key in obj) locals[key] = obj[key];
+    return obj;
+  }
+{ cookie: 
+   { path: '/',
+     _expires: Sat Jan 25 2014 14:50:21 GMT+0900 (KST),
+     originalMaxAge: 300000,
+     httpOnly: true } }
+[90mGET /signin [36m304 [90m501ms[0m
+[90mGET /css/bootstrap.css [36m304 [90m3ms[0m
+[90mGET /css/jquery-ui.min.css [36m304 [90m2ms[0m
+[90mGET /css/jquery-ui-timepicker-addon.css [36m304 [90m5ms[0m
+[90mGET /js/jquery.form.min.js [36m304 [90m7ms[0m
+[90mGET /js/jquery-ui.min.js [36m304 [90m7ms[0m
+[90mGET /js/jquery-ui-timepicker-addon.js [36m304 [90m7ms[0m
+[90mGET /js/jquery-1.10.2.min.js [36m304 [90m4ms[0m
+[90mGET /js/jade.js [36m304 [90m1ms[0m
+[90mGET /css/common.css [32m200 [90m18ms - 232b[0m
+[90mGET /js/jquery.jade.js [36m304 [90m0ms[0m
+[90mGET /js/jquery.validate.min.js [36m304 [90m1ms[0m
+[90mGET /js/additional-methods.min.js [36m304 [90m0ms[0m
+[90mGET /js/stapes.min.js [36m304 [90m1ms[0m
+[90mGET /js/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /js/html5shiv.js [36m304 [90m1ms[0m
+
+_____
+function locals(obj){
+    for (var key in obj) locals[key] = obj[key];
+    return obj;
+  }
+{ cookie: 
+   { path: '/',
+     _expires: Sat Jan 25 2014 14:50:26 GMT+0900 (KST),
+     originalMaxAge: 300000,
+     httpOnly: true },
+  user: 
+   { username: 'vvv',
+     password: '111',
+     _id: 52d2250122eda86e43000001,
+     __v: 0,
+     state: 'active',
+     createdt: Sun Jan 12 2014 14:15:41 GMT+0900 (KST),
+     regions: [],
+     roles: {} } }
+[90mPOST /signin [36m302 [90m33ms - 58b[0m
+
+_____
+function locals(obj){
+    for (var key in obj) locals[key] = obj[key];
+    return obj;
+  }
+[90mGET / [32m200 [90m53ms - 1.2kb[0m
+[90mGET /css/bootstrap.css [36m304 [90m1ms[0m
+[90mGET /css/jquery-ui.min.css [36m304 [90m2ms[0m
+[90mGET /css/jquery-ui-timepicker-addon.css [36m304 [90m2ms[0m
+[90mGET /js/jquery-1.10.2.min.js [36m304 [90m2ms[0m
+[90mGET /js/jquery-ui.min.js [36m304 [90m2ms[0m
+[90mGET /css/common.css [32m200 [90m7ms - 232b[0m
+[90mGET /js/jquery-ui-timepicker-addon.js [36m304 [90m2ms[0m
+[90mGET /js/jquery.jade.js [36m304 [90m2ms[0m
+[90mGET /js/jade.js [36m304 [90m2ms[0m
+[90mGET /js/jquery.form.min.js [36m304 [90m2ms[0m
+[90mGET /js/jquery.validate.min.js [36m304 [90m1ms[0m
+[90mGET /js/stapes.min.js [36m304 [90m3ms[0m
+[90mGET /js/additional-methods.min.js [36m304 [90m2ms[0m
+[90mGET /js/bootstrap.js [36m304 [90m1ms[0m
+[90mGET /js/html5shiv.js [36m304 [90m1ms[0m
